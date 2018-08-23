@@ -62,6 +62,5 @@ class Song
     song = self.create(song_elements[1])
     song.artist_name = song_elements[0]
     song
-    
   end
 end
