@@ -54,5 +54,5 @@ class Song
     song_elements = song_filename.split(/\s\-|\.\w+/).strip
     song.artist_name = song_elements[0]
     song.name = song_elements[1]
-    
+    song
 end
